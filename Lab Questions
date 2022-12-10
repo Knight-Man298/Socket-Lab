@@ -1,0 +1,48 @@
+PART 1:
+
+    Question 1:
+    What change would you make if you wanted the application to use IPv6 instead of IPv4? (2 marks)
+
+        Answer:
+        All you would do is go to line 3 of my "part-1.py" file and change .AF_INET to .AF_INET6
+
+    Question 2:
+    What are the three options available when selecting the protocol for a socket to use? (2 marks)
+    
+        Answer:
+        The three availible options are as follows...
+
+        1. The Socket Family would translate to "socket_family"
+        2. The Socket Types would simply be "socket_types"
+        3. And finally the Protocol would just be "protocol"
+
+PART 2:
+
+    Question 3:
+    What is the maximum message size your client can receive? (2 marks)
+
+        Answer:
+        The maximum message a client can hold is 4MB (Megabytes).
+
+    Question 4: How could you change the client to allow it to connect to a server on a different host on the network? (2 marks)
+
+        Answer:
+        By telling the router revealing it's IP address and it's socket to the targeted host, by revealing the socket, it will allow it to make a connection and the IP address will allow it to connect to which client.
+
+PART 3:
+
+    Question 5:
+    What is the purpose of creating sockets inside applications? (2 marks)
+
+        Answer:
+        The purpose is being able to make that connection. If you just show the IP address it'll know what's connecting to it, but it won't have a way of connecting to it. The socket acts almost like a key or a runway with lighting for the server.
+
+REFLECTION:
+
+    Reflection Question:
+    How many sockets do yout think you will use each day?
+
+        Answer:
+        I think due to the large usage of online games and searches. It would be in the range of 60 to 150. Given the amount of connection needed to make for most things I do.
+
+
